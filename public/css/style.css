@@ -12,9 +12,9 @@ body{
 }
 
 header{
-    background: #8E2DE2;
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
-    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: rgb(59, 174, 240);
+    background: -webkit-linear-gradient(to right, rgb(4, 155, 243), rgb(4, 117, 245));
+    background: linear-gradient(to right, rgb(7, 130, 245), rgb(20, 174, 245));
     color: #fff;
 }
 
@@ -27,11 +27,12 @@ header{
 .cover{
     background: url('../img/bg.jpg');
     background-size: cover;
-    background-position-y: -150px;
-    height: 50vh;
+    background-position-y: -220px;
+    height: 70vh;
     position: relative;
     display: flex;
     justify-content: center;
+    margin-bottom: 80 px;
 }
 
 .search-container{
@@ -65,9 +66,9 @@ header{
 }
 
 #search-form button{
-    background: #8E2DE2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(59, 174, 240);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(4, 155, 243), rgb(4, 117, 245));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(7, 130, 245), rgb(20, 174, 245)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     outline: none;
     color: #fff;
     border-radius: 5px;
@@ -91,12 +92,12 @@ header{
  
 }
 #contai{
-
-   
+    margin: 0;
+    margin-left: 70px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    width: 960px;
+    width: 1400px;
     bottom: -50px;
     padding: 20px;
     border-radius:5px;
